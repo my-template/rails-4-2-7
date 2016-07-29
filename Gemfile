@@ -1,26 +1,25 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.2.0'
+gem 'rails', '4.2.7'
 gem 'mysql2'
-gem 'uglifier'
-gem 'therubyracer'
-
-gem 'twitter'
-
+gem 'sass-rails', '~> 5.0'
+gem 'uglifier', '>= 1.3.0'
+gem 'coffee-rails', '~> 4.1.0'
+gem 'jquery-rails'
+gem 'jbuilder', '~> 2.0'
 gem 'slim-rails'
 gem 'html2slim'
-gem 'sass-rails'
-
-gem 'httplog'
 
 gem 'sprockets'
 gem 'unicorn'
 gem 'dotenv-rails'
 
+# Twitter
+gem 'twitter'
+gem 'httplog'
 
 group :development, :test do
   gem 'annotate'
-  gem 'capistrano'
   gem 'bullet'
   gem 'pry-rails'
   gem 'pry-byebug'
